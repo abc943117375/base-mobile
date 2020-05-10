@@ -1,0 +1,322 @@
+@import './variables.scss';
+
+// reset
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	font-size: 13px;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.2rem;
+	background: #f1f1f1;
+	-webkit-font-smoothing: antialiased; //字体平滑
+}
+
+a {
+	color: #999;
+}
+
+p{
+	line-height:1.5em;
+}
+// 生成颜色
+@each $colorKey,
+$color in $colors {
+	.text-#{$colorKey} {
+		//字体颜色
+		color: $color
+	}
+
+	.bg-#{$colorKey} {
+		background: $color;
+	}
+}
+
+// 定义文字对齐方向 text-align
+@each $val in (left, center, right) {
+
+	//工具类
+	.text-#{$val} {
+		text-align: $val !important;
+	}
+}
+
+@each $sizeKey,
+$size in $font-sizes {
+
+	//循环生成字体大小工具类
+	.fs-#{$sizeKey} {
+		font-size: $size * $base-font-size;
+	}
+}
+// text overflow 文字溢出显示省略号
+.text-ellipsis{
+	display:inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	// 设置文本不能换行
+	white-space:nowrap;
+}
+// overflow hiddle
+.over-h{
+	overflow: hidden;
+}
+// width,height
+.w-100 {
+	width: 100%;
+}
+
+.h-100 {
+	height: 100%;
+}
+.w-50 {
+	width: 50%;
+}
+
+.h-50 {
+	height: 50%;
+}
+
+// 定义弹性布局  flex
+.d-flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+// 好用，元素占据所有父元素刨除其他子元素后剩余的空间
+.flex-grow-1 {
+	flex-grow: 1;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+@each $key,
+$val in $flex-jc {
+	.jc-#{$key} {
+		justify-content: $val;
+	}
+}
+
+@each $key,
+$val in $flex-ai {
+	.ai-#{$key} {
+		align-items: $val;
+	}
+}
+
+@each $typeKey,
+$type in $spaceing-types {
+
+	// m-1
+	@each $sizeKey,
+	$size in $spaceing-sizes {
+		.#{$typeKey}-#{$sizeKey} {
+			#{$type}: $size * $spaceing-base-size;
+		}
+	}
+
+	// mx-1
+	@each $sizeKey,
+	$size in $spaceing-sizes {
+		.#{$typeKey}x-#{$sizeKey} {
+			#{$type}-left: $size * $spaceing-base-size;
+			#{$type}-right: $size * $spaceing-base-size;
+		}
+
+		.#{$typeKey}y-#{$sizeKey} {
+			#{$type}-top: $size * $spaceing-base-size;
+			#{$type}-bottom: $size * $spaceing-base-size;
+		}
+	}
+
+	// mt-1
+	@each $directionKey,
+	$direction in $spaceing-directions {
+
+		@each $sizeKey,
+		$size in $spaceing-sizes {
+			.#{$typeKey}#{$directionKey}-#{$sizeKey} {
+				#{$type}-#{$direction}: $size * $spaceing-base-size;
+			}
+		}
+	}
+}
+
+// 按钮相关button
+.btn {
+	border: none;
+	border-radius: 0.1538rem;
+	//  map-get表示从之前定义的某一个map数据中取出自己想要的
+	font-size: map-get($font-sizes, 'sm') * $base-font-size;
+	padding: 0.2rem 0.6rem;
+	&.btn-lg{
+		i{
+			color: map-get($colors, 'primary');
+			font-weight: bold;
+			font-size:1.5rem;
+			margin-right:0.5rem;
+		}
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		background: map-get($colors, 'white-1');
+		border:1px solid map-get($colors, 'white-2');
+		padding:0.8rem 1rem;
+		font-size:1rem;
+	}
+}
+
+// nav
+.nav {
+	display:flex;
+	.nav-item {
+		border-bottom: 3px solid transparent;
+		padding-bottom: 0.2rem;
+		&.active {
+			color:map-get($colors, 'primary');
+			border-bottom-color: map-get($colors, 'primary');
+		}
+	}
+	&.nav-inverse{
+		.nav-item{
+			color:map-get($colors, 'white');
+			&.active{
+				border-bottom-color:map-get($colors, 'white')
+			}
+		}
+	}
+}
+// sprite 精灵图
+.sprite {
+	// background: url(../images/index.png) no-repeat 0 0;
+	background-size: 28.8462rem;
+	display: inline-block;
+
+	&.sprite-news {
+		background-position: 63.546% 15.517%;
+		width: 1.7692rem;
+		height: 1.5385rem;
+	}
+
+	&.sprite-story {
+		background-position: 90.483% 15.614%;
+		width: 1.7692rem;
+		height: 1.5385rem;
+	}
+	&.sprite-arrow{
+		background-position: 38.577% 52.076% ;
+		width: 0.7692rem;
+		height: 0.7692rem ;
+	}
+	&.sprite-mall {
+		background-position: 36.746% 0.924%;
+		width: 1.4615rem;
+		height: 1.6923rem;
+	}
+
+	&.sprite-experience {
+		background-position: 10.408% 15.517%;
+		width: 1.5385rem;
+		height: 1.5385rem;
+	}
+
+	&.sprite-ncm {
+		background-position: 89.733% 1.266%;
+		width: 1.5385rem;
+		height: 1.6154rem;
+	}
+
+	&.sprite-glory {
+		background-position: 36.467% 15.287%;
+		width: 1.8462rem;
+		height: 1.5385rem;
+	}
+
+	&.sprite-sma {
+		background-position: 9.302% 0.813%;
+		width: 30.9998px;
+		height: 1.9231rem;
+	}
+};
+
+// borders 边框相关
+@each $dir in (top,right,bottom,left){
+	.border-#{$dir}{
+		border-#{$dir}:1rpx solid $border-color
+	}
+}
+
+
+// 吸顶效果  fixed实现
+.topbar-1{
+  height:3.3077rem;
+}
+.topbar{
+  // position:sticky; // 吸顶效果，有兼容性问题
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+  width:100%;
+}
+
+// 上传头像样式
+.el-upload {
+	border: 1px dashed #d9d9d9;
+	border-radius: 6px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.avatar-uploader {
+  .avatar-uploader {
+    .el-upload:hover {
+      border-color: #409eff;
+    }
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+  .avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+  }
+}
+
+// el-table 隔行换色样式
+.el-table {
+  .warning-row {
+    background: #f1f7f9;
+  }
+  .header-cell-class-name {
+    background: #e4eaec;
+  }
+}
+
+.tableRowClassName {
+  &:nth-child(2n-1) {
+    border: 1px solid red;
+  }
+}
+

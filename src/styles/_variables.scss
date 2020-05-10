@@ -1,0 +1,76 @@
+
+// 定义颜色 color
+$colors:(
+	"primary":#db9e3f,
+	"info":#4b67af,
+	"blue":#4394e4,
+	"blue-1":#1f3695,
+	"danger":#791a16,
+	"red":#ff0000,
+	"white":#fff,
+	"white-1":#fcfcfc,
+	"white-2":#eceef0,
+	"light":#f9f9f9,
+	"light-1":#d4d9de,
+	"grey":#999,
+	"grey-1":#666,
+	"dark-2":#ccc,
+	"dark-1":#343440,
+	"dark":#222,
+	"black":#000,
+	"rust":#2F71A9,
+);
+
+// border 
+$border-color:map-get($colors, 'light-1');
+// 定义字体大小 font-size 
+$base-font-size:1.5rem;
+$font-sizes:("xxs":0.6154, //8px
+	"xs":0.7692, //10px
+	"sm":0.9231, //12px
+	"md":1, //13px
+	"lg":1.0769, //14px
+	"xl":1.2308, //16px
+);
+
+
+$flex-jc:(start:flex-start,
+	end:flex-end,
+	center:center,
+	between:space-between,
+	around:space-around,
+);
+
+
+
+$flex-ai:(start:flex-start,
+	end:flex-end,
+	center:center,
+	stretch:stretch,
+);
+
+
+// 定义边距相关
+$spaceing-types:(m:margin,
+	p:padding,
+);
+$spaceing-directions:(t:top,
+	r:right,
+	b:bottom,
+	l:left,
+);
+$spaceing-base-size:1rem;
+$spaceing-sizes:(0:0,
+	1: 0.25,
+	2:0.5,
+	3:1,
+	4:1.5,
+	5:3);
+
+
+
+
+
+
+
+
