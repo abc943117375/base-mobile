@@ -1,6 +1,6 @@
 const getters = {
-  // 例如: value:state => state.xxx.value
   userInfo: state => state.user.userInfo,
-  token: state => state.user.token
+  token: state => state.user.token,
+  schoolCode: state => state.user.schoolConfig.schoolCode
 }
 export default getters

@@ -1,6 +1,5 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import approve from './modules/approve.js';
 Vue.use(VueRouter);
 
 const routes = [
@@ -10,7 +9,6 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "home" */ "@/views/home"),
   },
-  ...approve,
 ];
 
 const router = new VueRouter({

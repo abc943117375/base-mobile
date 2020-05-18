@@ -14,7 +14,7 @@ body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.2rem;
-	background: #f1f1f1;
+	background: #fff;
 	-webkit-font-smoothing: antialiased; //字体平滑
 }
 
@@ -24,6 +24,7 @@ a {
 
 p{
 	line-height:1.5em;
+	margin:0;
 }
 // 生成颜色
 @each $colorKey,
@@ -257,7 +258,7 @@ $type in $spaceing-types {
 // borders 边框相关
 @each $dir in (top,right,bottom,left){
 	.border-#{$dir}{
-		border-#{$dir}:1rpx solid $border-color
+		border-#{$dir}:1px solid $border-color
 	}
 }
 
@@ -320,3 +321,21 @@ $type in $spaceing-types {
   }
 }
 
+/* 解决高度坍塌,外边距溢出 */
+.clearfix:after{
+	clear:both;
+}
+.clearfix:after,.clearfix::before{
+	content:"";
+	display:table;
+}
+
+/* 上下阴影 */
+.my-shadow{
+	box-shadow: 2px 0px 8px 5px #eee;
+}
+
+/* 圆角相关 */
+.radius-50{
+	border-radius:50% !important;
+}

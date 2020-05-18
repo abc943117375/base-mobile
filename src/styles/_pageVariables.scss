@@ -1,0 +1,8 @@
+// 头像大小
+$avatarSize: 1.5rem;
+.page-avatar-round{
+    width: $avatarSize;
+    height: $avatarSize;
+    line-height: $avatarSize;
+    border-radius: 0.2rem;
+};

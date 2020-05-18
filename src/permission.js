@@ -1,30 +1,53 @@
-import router from './router'
-import store from './store'
-import { getToken } from './utils/auth'
-import { Dialog } from 'vant'
-
-const { getters } = store
-const token = getToken()
-console.log(token);
-router.beforeEach((to, form, next) => {
-  if (getters.token || token) {
-    console.log('token存在,允许跳转');
-    next()
-  } else {
-    Dialog.confirm({
-      title: '提示',
-      message: 'token异常,请退出后重试'
-    }).then(res => {
-      console.log('重新获取');
-    })
-      .catch(() => {
-        console.log('退出重试');
-      })
+/*
+ * @Author: achao
+ * @Date: 2020-05-12 11:01:02
+ * @LastEditTime: 2020-05-12 16:30:30
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \approve\src\permission.js
+ */
+import router from "./router";
+import store from "./store";
+import { getUrlParam } from "./utils/url";
+import { getToken } from "./utils/auth";
+import { Dialog } from "vant";
+const beforeEach = async (to, form, next) => {
+  const localToken = getToken();
+  if (localToken) {
+    next();
+    return;
   }
-})
+  // 这里写地址栏的参数
+  const query = getUrlParam('query')
+  if (query) {
+    const { userInfo, schoolConfig, token } = JSON.parse(query);
+    // const { userInfo, schoolConfig, token } = query;
+    try {
+      // 这里写你要执行的逻辑
+      next();
+    } catch (error) {
+      Dialog.confirm({
+        title: "提示",
+        message: "token异常,请退出后重试"
+      })
+        .then(async res => {
+          next();
+        })
+        .catch(() => {
+          console.log("退出重试");
+          wx.miniProgram.reLaunch({
+            url: "/pages/home/index"
+          });
+        });
+    }
+  } else {
+    Dialog.alert({ title: "提示", message: "参数错误" }).then(() => {
+      wx.miniProgram.reLaunch({
+        url: "/pages/home/index"
+      });
+    });
+  }
+};
+router.beforeEach(beforeEach);
 
-router.afterEach((ro, form) => {
-})
-
-
-
+router.afterEach((ro, form) => { });

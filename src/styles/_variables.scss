@@ -1,38 +1,37 @@
 
 // 定义颜色 color
 $colors:(
-	"primary":#db9e3f,
-	"info":#4b67af,
-	"blue":#4394e4,
-	"blue-1":#1f3695,
-	"danger":#791a16,
-	"red":#ff0000,
-	"white":#fff,
-	"white-1":#fcfcfc,
-	"white-2":#eceef0,
-	"light":#f9f9f9,
-	"light-1":#d4d9de,
-	"grey":#999,
-	"grey-1":#666,
-	"dark-2":#ccc,
-	"dark-1":#343440,
-	"dark":#222,
-	"black":#000,
-	"rust":#2F71A9,
+	"primary":#2172EE,
+	"danger":#FF6E54,
+	"success":#FFA200,
+	"orange":#E9BB8D,
+	"orange-1":#FF9A6C,
+	"red":#FF373A,
+	"blue":#00E4FF,
+	"blue-1":#00FFCC,
+	"gray":#C8C8C8,
+	"gray-1":#58585C,
+	"gray-2":#58585C,
+	"gray-3":#999,
+	"gray-4":#666666,
+	"black-1":#111111,
+	"black-2":#222222,
+	"white":#ffffff,
+	"light-1":#eee,
 );
 
 // border 
 $border-color:map-get($colors, 'light-1');
 // 定义字体大小 font-size 
-$base-font-size:1.5rem;
-$font-sizes:("xxs":0.6154, //8px
-	"xs":0.7692, //10px
-	"sm":0.9231, //12px
-	"md":1, //13px
-	"lg":1.0769, //14px
-	"xl":1.2308, //16px
+$base-font-size:.5rem;
+$font-sizes:( 
+	"xxs":0.2,
+	"xs":0.4, 
+	"sm":0.6, 
+	"md":0.8, 
+	"lg":1,
+	"xl":1.2,
 );
-
 
 $flex-jc:(start:flex-start,
 	end:flex-end,
@@ -59,15 +58,13 @@ $spaceing-directions:(t:top,
 	b:bottom,
 	l:left,
 );
-$spaceing-base-size:1rem;
+$spaceing-base-size:.4rem;
 $spaceing-sizes:(0:0,
 	1: 0.25,
 	2:0.5,
 	3:1,
 	4:1.5,
 	5:3);
-
-
 
 
 
