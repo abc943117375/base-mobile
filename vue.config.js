@@ -4,13 +4,17 @@ const defaultSettings = require('./src/settings.js')
 function resolve(dir) {
   return path.join(__dirname, dir)
 }
+// 启动的开发端口号,可以根据自己的需求设置
 const port = process.env.port || process.env.npm_config_port || 8888 // dev port
 
 const name = defaultSettings.title
 
 module.exports = {
+  // 打包到哪个文件夹
   publicPath: '/xwx-web/',
+  // 打包后的文件夹名
   outputDir: 'dist',
+  // 打包后的静态资源文件夹
   assetsDir: './static/',
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
@@ -39,6 +43,7 @@ module.exports = {
       }
     }
   },
+  // 懒加载js文件
   chainWebpack: config => {
     config.plugins.delete("prefetch")
   }

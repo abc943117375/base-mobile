@@ -12,6 +12,10 @@ import { getUrlParam } from "./utils/url";
 import { getToken } from "./utils/auth";
 import { Dialog } from "vant";
 const beforeEach = async (to, form, next) => {
+  next()
+  return
+  // 下面是一个效验用户是否登录的拦截,懒得写的可以直接使用,条件看着改就好了
+  // 路由拦截 start
   const localToken = getToken();
   if (localToken) {
     next();
@@ -47,6 +51,7 @@ const beforeEach = async (to, form, next) => {
       });
     });
   }
+  // 路由拦截 end
 };
 router.beforeEach(beforeEach);
 
