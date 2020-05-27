@@ -16,6 +16,8 @@ import './styles/_pageVariables.scss'
 import inject from './plugins'
 // 手淘适配(移动端)
 import 'lib-flexible';
+// 引入mock拦截请求并返回模拟数据  @/mock/index.js
+// require('./mock') // 解开注释即可使用
 Vue.use(inject)
 Vue.config.productionTip = false;
 new Vue({
