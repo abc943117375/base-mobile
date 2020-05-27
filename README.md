@@ -25,6 +25,6 @@ npm run build
 
 ### 样式库
 
-- paceage里边有个vant,不想要的npm i之前可以去掉
+- package.json里边有个vant,不想要的npm i之前可以去掉
 - 有个lib-flexible适配包,不需要也可以去掉
 
