@@ -1,13 +1,25 @@
 /**
  * Created by PanJiaChen on 16/11/18.
  */
-
+/**
+ * @see 当前环境是移动端还是pc端  true为移动端,false为pc端,暂时不能用,原因未定
+ */
+// export function a() {
+//   //判断当前打开浏览器
+//   if (/DingTalk/i.test(navigator.userAgent)) {
+//     if (/AliApp/i.test(navigator.userAgent)) {//APP
+//       return false
+//     } else {//PC  
+//       return true
+//     }
+//   }
+// }
 
 /**
  * @see 获取滚动条高度的函数
  */
 function getScrollTop() {
-  var scroll_top = 0;
+  let scroll_top = 0;
   if (document.documentElement && document.documentElement.scrollTop) {
     scroll_top = document.documentElement.scrollTop;
   }
@@ -118,6 +130,7 @@ export function parseTime(time, cFormat) {
 }
 
 /**
+ * 传递时间戳,返回距离当前时间的 '人话' 例如:xxx 分钟||小时||天 前
  * @param {number} time
  * @param {string} option
  * @returns {string}
@@ -161,6 +174,7 @@ export function formatTime(time, option) {
 }
 
 /**
+ * 解析url,返回url对象.类似于express帮你解析的req
  * @param {string} url
  * @returns {Object}
  */
@@ -180,6 +194,7 @@ export function getQueryObject(url) {
 }
 
 /**
+ * 返回utf8字符串的字节长度
  * @param {string} input value
  * @returns {number} output value
  */
@@ -196,6 +211,7 @@ export function byteLength(str) {
 }
 
 /**
+ * 过滤掉数组中为false的值
  * @param {Array} actual
  * @returns {Array}
  */
@@ -224,6 +240,7 @@ export function param(json) {
 }
 
 /**
+ * 将url中的查询字符串转为对象
  * @param {string} url
  * @returns {Object}
  */
@@ -254,6 +271,7 @@ export function html2Text(val) {
 }
 
 /**
+ * 合并两个对象，给出最后一个优先级
  * Merges two objects, giving the last one precedence
  * @param {Object} target
  * @param {(Object|Array)} source
@@ -278,6 +296,7 @@ export function objectMerge(target, source) {
 }
 
 /**
+ * 切换某个dom元素上的某个class
  * @param {HTMLElement} element
  * @param {string} className
  */
@@ -299,7 +318,7 @@ export function toggleClass(element, className) {
 
 /**
  * @param {string} type
- * @returns {Date}
+ * @returns {Date} 距离当前时间90天前的时间戳    ????
  */
 export function getTime(type) {
   if (type === 'start') {
@@ -310,9 +329,10 @@ export function getTime(type) {
 }
 
 /**
- * @param {Function} func
- * @param {number} wait
- * @param {boolean} immediate
+ * 防抖
+ * @param {Function} func  要防抖的函数 
+ * @param {number} wait  防抖的间隔
+ * @param {boolean} immediate  未知,没看懂 
  * @return {*}
  */
 export function debounce(func, wait, immediate) {
@@ -351,6 +371,7 @@ export function debounce(func, wait, immediate) {
 }
 
 /**
+ * 深克隆(不完全版,建议使用lodash)
  * This is just a simple version of deep copy
  * Has a lot of edge cases bug
  * If you want to use a perfect deep copy, use lodash's _.cloneDeep
@@ -381,6 +402,7 @@ export function uniqueArr(arr) {
 }
 
 /**
+ * 生成一个十三位随机字符串
  * @returns {string}
  */
 export function createUniqueString() {
@@ -390,6 +412,7 @@ export function createUniqueString() {
 }
 
 /**
+ * 检查一个元素是否有一个类
  * Check if an element has a class
  * @param {HTMLElement} elm
  * @param {string} cls
@@ -400,6 +423,7 @@ export function hasClass(ele, cls) {
 }
 
 /**
+ * 将类添加到元素
  * Add class to element
  * @param {HTMLElement} elm
  * @param {string} cls
@@ -409,6 +433,7 @@ export function addClass(ele, cls) {
 }
 
 /**
+ * 从元素中删除类
  * Remove class from element
  * @param {HTMLElement} elm
  * @param {string} cls
@@ -419,7 +444,9 @@ export function removeClass(ele, cls) {
     ele.className = ele.className.replace(reg, ' ')
   }
 }
-
+/**
+ * @see 检测传递的参数是不是number
+ */
 export const checknumber = (str) => {
   var reg = /^[0-9]+.?[0-9]*$/
   if (reg.test(str)) {
