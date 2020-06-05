@@ -1,6 +1,18 @@
 /**
  * Created by PanJiaChen on 16/11/18.
  */
+
+
+/**
+ * @see 计算一年有多少周
+ */
+export function getNumOfWeeks(year) {
+  let d = new Date(year, 0, 1);
+  let yt = ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) ? 366 : 365;
+  return Math.ceil((yt - d.getDay()) / 7.0);
+}
+
+
 /**
  * @see 当前环境是移动端还是pc端  true为移动端,false为pc端,暂时不能用,原因未定
  */
@@ -18,7 +30,7 @@
 /**
  * @see 获取滚动条高度的函数
  */
-function getScrollTop() {
+export const getScrollTop = function () {
   let scroll_top = 0;
   if (document.documentElement && document.documentElement.scrollTop) {
     scroll_top = document.documentElement.scrollTop;
