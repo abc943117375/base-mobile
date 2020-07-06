@@ -1,31 +1,61 @@
 /**
  * Created by PanJiaChen on 16/11/18.
  */
+/**
+ * @see 生成随机字符串
+ */
+export function randomString(len) {
+  len = len || 32;
+  var $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';    /****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/
+  var maxPos = $chars.length;
+  var pwd = '';
+  for (var i = 0; i < len; i++) {
+    pwd += $chars.charAt(Math.floor(Math.random() * maxPos));
+  }
+  return pwd;
+}
 
+/**
+ * @see 判断一个值是否是nan
+ */
+export function cIsNaN(n) {
+  if (n !== n) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /**
  * @see 计算一年有多少周
  */
 export function getNumOfWeeks(year) {
   let d = new Date(year, 0, 1);
-  let yt = ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) ? 366 : 365;
+  let yt = (year % 4 == 0 && year % 100 != 0) || year % 400 == 0 ? 366 : 365;
   return Math.ceil((yt - d.getDay()) / 7.0);
 }
 
-
 /**
- * @see 当前环境是移动端还是pc端  true为移动端,false为pc端,暂时不能用,原因未定
+ * @see 判断当前浏览器环境
  */
-// export function a() {
-//   //判断当前打开浏览器
-//   if (/DingTalk/i.test(navigator.userAgent)) {
-//     if (/AliApp/i.test(navigator.userAgent)) {//APP
-//       return false
-//     } else {//PC  
-//       return true
-//     }
-//   }
-// }
+export function Device(key) {
+  const { userAgent: UA } = navigator;
+  const UA_L = UA.toLowerCase();
+  const judgeDevice = {
+    trident: UA.includes("Trident"), //IE内核
+    presto: UA.includes("Presto"), //opera内核
+    iPad: UA.includes("iPad"), //是否iPad
+    iPhone: UA.includes("iPhone"), //是否为iPhone或者QQHD浏览器
+    webKit: UA.includes("AppleWebKit"), //苹果、谷歌内核
+    webApp: UA.indexOf("Safari") === -1, //是否web应用程序，没有头部与底部
+    mobile: !!UA.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+    ios: !!UA.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+    android: UA.includes("Android") || UA.includes("Linux"), //android终端或uc浏览器
+    gecko: UA.includes("Gecko") && UA.indexOf("KHTML") === -1, //火狐内核
+    wechat: UA_L.toLowerCase().match(/MicroMessenger/i) == "micromessenger" // 微信
+  };
+  return judgeDevice[key]
+}
 
 /**
  * @see 获取滚动条高度的函数
