@@ -2,6 +2,15 @@
  * Created by PanJiaChen on 16/11/18.
  */
 /**
+ * @see 判断数据类型
+ */
+export function dataType(val) {
+  const toStrnig = Object.prototype.toString
+  const result = toString.call(val).split(' ')[1].split(']')[0]
+  return result
+}
+
+/**
  * @see 生成随机字符串
  */
 export function randomString(len) {
