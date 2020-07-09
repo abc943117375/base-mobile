@@ -2,10 +2,28 @@
  * Created by PanJiaChen on 16/11/18.
  */
 /**
+ * @see 循环对象 
+ */
+// - 会遍历原型上的属性
+export const forAll = (obj, cb) => {
+  for (let key in obj) {
+    cb(obj[key], key)
+  }
+}
+// - 不会获取原型上的属性
+export const forAlone = (obj, cb) => {
+  Object.getOwnPropertyNames(obj).forEach(v => {
+    cb(obj[v], v)
+  })
+}
+
+
+/**
  * @see 判断数据类型
+ * @return {string}
  */
 export function dataType(val) {
-  const toStrnig = Object.prototype.toString
+  const toString = Object.prototype.toString
   const result = toString.call(val).split(' ')[1].split(']')[0]
   return result
 }
