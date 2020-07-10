@@ -2,6 +2,16 @@
  * Created by PanJiaChen on 16/11/18.
  */
 /**
+ * @see 获取英文字母
+ * @param start 开始下标
+ * @param end 结束下标
+ */
+export const letterArray = (start, end) => {
+  const arr = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+  return arr.slice(start, end)
+}
+
+/**
  * @see 循环对象 
  */
 // - 会遍历原型上的属性
