@@ -21,15 +21,45 @@ html {
 	filter: gray;
 	-webkit-filter: grayscale(1); 
 	}
-*/
 
+	// 禁止用户选择页面中的文字或图片
+	.disabled-select {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
 
+	*/
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.2rem;
 	background: #fff;
 	-webkit-font-smoothing: antialiased; //字体平滑
+	
+	// 下方代码代表字体禁止缩放
+	// -webkit-text-size-adjust: 100% !important;
+	// text-size-adjust: 100% !important;
+	// -moz-text-size-adjust: 100% !important;
+}
+input {
+	-webkit-appearance: none;
+}
+// 禁止保存或拷贝图像
+.disabled-copy-img {
+	-webkit-touch-callout: none;
+}
+// 解决ios滑动不流畅
+.wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+// 部分android系统点击一个链接，会出现一个边框或者半透明灰色遮罩, 不同生产商定义出来额效果不一样。去除代码如下
+a,button,input,textarea{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-user-modify:read-write-plaintext-only; 
 }
 
 a {

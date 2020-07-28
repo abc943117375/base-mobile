@@ -1,0 +1,41 @@
+
+@mixin lines($line:1){
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
+
+//圆角==========================================================
+@mixin radius($radius:5px){
+  -moz-border-radius:$radius;
+  -webkit-border-radius:$radius;
+  -o-border-radius:$radius;
+  -ms-border-radius:$radius;
+  -khtml-border-radius:$radius;
+  border-radius:$radius;
+}
+
+//边框
+@mixin border($path,$size: 1px,$type: solid,$color: #efefef){
+  @if $path == all {
+    border:$size $type $color;
+  }@else{
+    border-#{$path}:$size $type $color;
+  }
+}
+//动画时间
+@mixin antime($time:1s){
+  transition: $time;
+  -moz-transition: $time;
+  -webkit-transition: $time;
+  -o-transition: $time;
+}
+//透明度========================================================
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}

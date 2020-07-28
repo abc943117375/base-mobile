@@ -1,0 +1,1846 @@
+[
+    {
+      "name": "北京市",
+      "value": "2"
+    },
+    {
+      "name": "市辖区",
+      "value": "33",
+      "parent": "2"
+    },
+    {
+      "name": "县",
+      "value": "34",
+      "parent": "2"
+    },
+    {
+      "name": "天津市",
+      "value": "3"
+    },
+    {
+      "name": "市辖区",
+      "value": "35",
+      "parent": "3"
+    },
+    {
+      "name": "县",
+      "value": "36",
+      "parent": "3"
+    },
+    {
+      "name": "河北省",
+      "value": "4"
+    },
+    {
+      "name": "石家庄市",
+      "value": "37",
+      "parent": "4"
+    },
+    {
+      "name": "唐山市",
+      "value": "38",
+      "parent": "4"
+    },
+    {
+      "name": "秦皇岛市",
+      "value": "39",
+      "parent": "4"
+    },
+    {
+      "name": "邯郸市",
+      "value": "40",
+      "parent": "4"
+    },
+    {
+      "name": "邢台市",
+      "value": "41",
+      "parent": "4"
+    },
+    {
+      "name": "保定市",
+      "value": "42",
+      "parent": "4"
+    },
+    {
+      "name": "张家口市",
+      "value": "43",
+      "parent": "4"
+    },
+    {
+      "name": "承德市",
+      "value": "44",
+      "parent": "4"
+    },
+    {
+      "name": "沧州市",
+      "value": "45",
+      "parent": "4"
+    },
+    {
+      "name": "廊坊市",
+      "value": "46",
+      "parent": "4"
+    },
+    {
+      "name": "衡水市",
+      "value": "47",
+      "parent": "4"
+    },
+    {
+      "name": "山西省",
+      "value": "5"
+    },
+    {
+      "name": "太原市",
+      "value": "48",
+      "parent": "5"
+    },
+    {
+      "name": "大同市",
+      "value": "49",
+      "parent": "5"
+    },
+    {
+      "name": "阳泉市",
+      "value": "50",
+      "parent": "5"
+    },
+    {
+      "name": "长治市",
+      "value": "51",
+      "parent": "5"
+    },
+    {
+      "name": "晋城市",
+      "value": "52",
+      "parent": "5"
+    },
+    {
+      "name": "朔州市",
+      "value": "53",
+      "parent": "5"
+    },
+    {
+      "name": "晋中市",
+      "value": "54",
+      "parent": "5"
+    },
+    {
+      "name": "运城市",
+      "value": "55",
+      "parent": "5"
+    },
+    {
+      "name": "忻州市",
+      "value": "56",
+      "parent": "5"
+    },
+    {
+      "name": "临汾市",
+      "value": "57",
+      "parent": "5"
+    },
+    {
+      "name": "吕梁市",
+      "value": "58",
+      "parent": "5"
+    },
+    {
+      "name": "内蒙古自治区",
+      "value": "6"
+    },
+    {
+      "name": "呼和浩特市",
+      "value": "59",
+      "parent": "6"
+    },
+    {
+      "name": "包头市",
+      "value": "60",
+      "parent": "6"
+    },
+    {
+      "name": "乌海市",
+      "value": "61",
+      "parent": "6"
+    },
+    {
+      "name": "赤峰市",
+      "value": "62",
+      "parent": "6"
+    },
+    {
+      "name": "通辽市",
+      "value": "63",
+      "parent": "6"
+    },
+    {
+      "name": "鄂尔多斯市",
+      "value": "64",
+      "parent": "6"
+    },
+    {
+      "name": "呼伦贝尔市",
+      "value": "65",
+      "parent": "6"
+    },
+    {
+      "name": "巴彦淖尔市",
+      "value": "66",
+      "parent": "6"
+    },
+    {
+      "name": "乌兰察布市",
+      "value": "67",
+      "parent": "6"
+    },
+    {
+      "name": "兴安盟",
+      "value": "68",
+      "parent": "6"
+    },
+    {
+      "name": "锡林郭勒盟",
+      "value": "69",
+      "parent": "6"
+    },
+    {
+      "name": "阿拉善盟",
+      "value": "70",
+      "parent": "6"
+    },
+    {
+      "name": "辽宁省",
+      "value": "7"
+    },
+    {
+      "name": "沈阳市",
+      "value": "71",
+      "parent": "7"
+    },
+    {
+      "name": "大连市",
+      "value": "72",
+      "parent": "7"
+    },
+    {
+      "name": "鞍山市",
+      "value": "73",
+      "parent": "7"
+    },
+    {
+      "name": "抚顺市",
+      "value": "74",
+      "parent": "7"
+    },
+    {
+      "name": "本溪市",
+      "value": "75",
+      "parent": "7"
+    },
+    {
+      "name": "丹东市",
+      "value": "76",
+      "parent": "7"
+    },
+    {
+      "name": "锦州市",
+      "value": "77",
+      "parent": "7"
+    },
+    {
+      "name": "营口市",
+      "value": "78",
+      "parent": "7"
+    },
+    {
+      "name": "阜新市",
+      "value": "79",
+      "parent": "7"
+    },
+    {
+      "name": "辽阳市",
+      "value": "80",
+      "parent": "7"
+    },
+    {
+      "name": "盘锦市",
+      "value": "81",
+      "parent": "7"
+    },
+    {
+      "name": "铁岭市",
+      "value": "82",
+      "parent": "7"
+    },
+    {
+      "name": "朝阳市",
+      "value": "83",
+      "parent": "7"
+    },
+    {
+      "name": "葫芦岛市",
+      "value": "84",
+      "parent": "7"
+    },
+    {
+      "name": "吉林省",
+      "value": "8"
+    },
+    {
+      "name": "长春市",
+      "value": "85",
+      "parent": "8"
+    },
+    {
+      "name": "吉林市",
+      "value": "86",
+      "parent": "8"
+    },
+    {
+      "name": "四平市",
+      "value": "87",
+      "parent": "8"
+    },
+    {
+      "name": "辽源市",
+      "value": "88",
+      "parent": "8"
+    },
+    {
+      "name": "通化市",
+      "value": "89",
+      "parent": "8"
+    },
+    {
+      "name": "白山市",
+      "value": "90",
+      "parent": "8"
+    },
+    {
+      "name": "松原市",
+      "value": "91",
+      "parent": "8"
+    },
+    {
+      "name": "白城市",
+      "value": "92",
+      "parent": "8"
+    },
+    {
+      "name": "延边朝鲜族自治州",
+      "value": "93",
+      "parent": "8"
+    },
+    {
+      "name": "黑龙江省",
+      "value": "9"
+    },
+    {
+      "name": "哈尔滨市",
+      "value": "94",
+      "parent": "9"
+    },
+    {
+      "name": "齐齐哈尔市",
+      "value": "95",
+      "parent": "9"
+    },
+    {
+      "name": "鸡西市",
+      "value": "96",
+      "parent": "9"
+    },
+    {
+      "name": "鹤岗市",
+      "value": "97",
+      "parent": "9"
+    },
+    {
+      "name": "双鸭山市",
+      "value": "98",
+      "parent": "9"
+    },
+    {
+      "name": "大庆市",
+      "value": "99",
+      "parent": "9"
+    },
+    {
+      "name": "伊春市",
+      "value": "100",
+      "parent": "9"
+    },
+    {
+      "name": "佳木斯市",
+      "value": "101",
+      "parent": "9"
+    },
+    {
+      "name": "七台河市",
+      "value": "102",
+      "parent": "9"
+    },
+    {
+      "name": "牡丹江市",
+      "value": "103",
+      "parent": "9"
+    },
+    {
+      "name": "黑河市",
+      "value": "104",
+      "parent": "9"
+    },
+    {
+      "name": "绥化市",
+      "value": "105",
+      "parent": "9"
+    },
+    {
+      "name": "大兴安岭地区",
+      "value": "106",
+      "parent": "9"
+    },
+    {
+      "name": "上海市",
+      "value": "10"
+    },
+    {
+      "name": "市辖区",
+      "value": "107",
+      "parent": "10"
+    },
+    {
+      "name": "县",
+      "value": "108",
+      "parent": "10"
+    },
+    {
+      "name": "江苏省",
+      "value": "11"
+    },
+    {
+      "name": "南京市",
+      "value": "109",
+      "parent": "11"
+    },
+    {
+      "name": "无锡市",
+      "value": "110",
+      "parent": "11"
+    },
+    {
+      "name": "徐州市",
+      "value": "111",
+      "parent": "11"
+    },
+    {
+      "name": "常州市",
+      "value": "112",
+      "parent": "11"
+    },
+    {
+      "name": "苏州市",
+      "value": "113",
+      "parent": "11"
+    },
+    {
+      "name": "南通市",
+      "value": "114",
+      "parent": "11"
+    },
+    {
+      "name": "连云港市",
+      "value": "115",
+      "parent": "11"
+    },
+    {
+      "name": "淮安市",
+      "value": "116",
+      "parent": "11"
+    },
+    {
+      "name": "盐城市",
+      "value": "117",
+      "parent": "11"
+    },
+    {
+      "name": "扬州市",
+      "value": "118",
+      "parent": "11"
+    },
+    {
+      "name": "镇江市",
+      "value": "119",
+      "parent": "11"
+    },
+    {
+      "name": "泰州市",
+      "value": "120",
+      "parent": "11"
+    },
+    {
+      "name": "宿迁市",
+      "value": "121",
+      "parent": "11"
+    },
+    {
+      "name": "浙江省",
+      "value": "12"
+    },
+    {
+      "name": "杭州市",
+      "value": "122",
+      "parent": "12"
+    },
+    {
+      "name": "宁波市",
+      "value": "123",
+      "parent": "12"
+    },
+    {
+      "name": "温州市",
+      "value": "124",
+      "parent": "12"
+    },
+    {
+      "name": "嘉兴市",
+      "value": "125",
+      "parent": "12"
+    },
+    {
+      "name": "湖州市",
+      "value": "126",
+      "parent": "12"
+    },
+    {
+      "name": "绍兴市",
+      "value": "127",
+      "parent": "12"
+    },
+    {
+      "name": "金华市",
+      "value": "128",
+      "parent": "12"
+    },
+    {
+      "name": "衢州市",
+      "value": "129",
+      "parent": "12"
+    },
+    {
+      "name": "舟山市",
+      "value": "130",
+      "parent": "12"
+    },
+    {
+      "name": "台州市",
+      "value": "131",
+      "parent": "12"
+    },
+    {
+      "name": "丽水市",
+      "value": "132",
+      "parent": "12"
+    },
+    {
+      "name": "安徽省",
+      "value": "13"
+    },
+    {
+      "name": "合肥市",
+      "value": "133",
+      "parent": "13"
+    },
+    {
+      "name": "芜湖市",
+      "value": "134",
+      "parent": "13"
+    },
+    {
+      "name": "蚌埠市",
+      "value": "135",
+      "parent": "13"
+    },
+    {
+      "name": "淮南市",
+      "value": "136",
+      "parent": "13"
+    },
+    {
+      "name": "马鞍山市",
+      "value": "137",
+      "parent": "13"
+    },
+    {
+      "name": "淮北市",
+      "value": "138",
+      "parent": "13"
+    },
+    {
+      "name": "铜陵市",
+      "value": "139",
+      "parent": "13"
+    },
+    {
+      "name": "安庆市",
+      "value": "140",
+      "parent": "13"
+    },
+    {
+      "name": "黄山市",
+      "value": "141",
+      "parent": "13"
+    },
+    {
+      "name": "滁州市",
+      "value": "142",
+      "parent": "13"
+    },
+    {
+      "name": "阜阳市",
+      "value": "143",
+      "parent": "13"
+    },
+    {
+      "name": "宿州市",
+      "value": "144",
+      "parent": "13"
+    },
+    {
+      "name": "巢湖市",
+      "value": "145",
+      "parent": "13"
+    },
+    {
+      "name": "六安市",
+      "value": "146",
+      "parent": "13"
+    },
+    {
+      "name": "亳州市",
+      "value": "147",
+      "parent": "13"
+    },
+    {
+      "name": "池州市",
+      "value": "148",
+      "parent": "13"
+    },
+    {
+      "name": "宣城市",
+      "value": "149",
+      "parent": "13"
+    },
+    {
+      "name": "福建省",
+      "value": "14"
+    },
+    {
+      "name": "福州市",
+      "value": "150",
+      "parent": "14"
+    },
+    {
+      "name": "厦门市",
+      "value": "151",
+      "parent": "14"
+    },
+    {
+      "name": "莆田市",
+      "value": "152",
+      "parent": "14"
+    },
+    {
+      "name": "三明市",
+      "value": "153",
+      "parent": "14"
+    },
+    {
+      "name": "泉州市",
+      "value": "154",
+      "parent": "14"
+    },
+    {
+      "name": "漳州市",
+      "value": "155",
+      "parent": "14"
+    },
+    {
+      "name": "南平市",
+      "value": "156",
+      "parent": "14"
+    },
+    {
+      "name": "龙岩市",
+      "value": "157",
+      "parent": "14"
+    },
+    {
+      "name": "宁德市",
+      "value": "158",
+      "parent": "14"
+    },
+    {
+      "name": "江西省",
+      "value": "15"
+    },
+    {
+      "name": "南昌市",
+      "value": "159",
+      "parent": "15"
+    },
+    {
+      "name": "景德镇市",
+      "value": "160",
+      "parent": "15"
+    },
+    {
+      "name": "萍乡市",
+      "value": "161",
+      "parent": "15"
+    },
+    {
+      "name": "九江市",
+      "value": "162",
+      "parent": "15"
+    },
+    {
+      "name": "新余市",
+      "value": "163",
+      "parent": "15"
+    },
+    {
+      "name": "鹰潭市",
+      "value": "164",
+      "parent": "15"
+    },
+    {
+      "name": "赣州市",
+      "value": "165",
+      "parent": "15"
+    },
+    {
+      "name": "吉安市",
+      "value": "166",
+      "parent": "15"
+    },
+    {
+      "name": "宜春市",
+      "value": "167",
+      "parent": "15"
+    },
+    {
+      "name": "抚州市",
+      "value": "168",
+      "parent": "15"
+    },
+    {
+      "name": "上饶市",
+      "value": "169",
+      "parent": "15"
+    },
+    {
+      "name": "山东省",
+      "value": "16"
+    },
+    {
+      "name": "济南市",
+      "value": "170",
+      "parent": "16"
+    },
+    {
+      "name": "青岛市",
+      "value": "171",
+      "parent": "16"
+    },
+    {
+      "name": "淄博市",
+      "value": "172",
+      "parent": "16"
+    },
+    {
+      "name": "枣庄市",
+      "value": "173",
+      "parent": "16"
+    },
+    {
+      "name": "东营市",
+      "value": "174",
+      "parent": "16"
+    },
+    {
+      "name": "烟台市",
+      "value": "175",
+      "parent": "16"
+    },
+    {
+      "name": "潍坊市",
+      "value": "176",
+      "parent": "16"
+    },
+    {
+      "name": "济宁市",
+      "value": "177",
+      "parent": "16"
+    },
+    {
+      "name": "泰安市",
+      "value": "178",
+      "parent": "16"
+    },
+    {
+      "name": "威海市",
+      "value": "179",
+      "parent": "16"
+    },
+    {
+      "name": "日照市",
+      "value": "180",
+      "parent": "16"
+    },
+    {
+      "name": "莱芜市",
+      "value": "181",
+      "parent": "16"
+    },
+    {
+      "name": "临沂市",
+      "value": "182",
+      "parent": "16"
+    },
+    {
+      "name": "德州市",
+      "value": "183",
+      "parent": "16"
+    },
+    {
+      "name": "聊城市",
+      "value": "184",
+      "parent": "16"
+    },
+    {
+      "name": "滨州市",
+      "value": "185",
+      "parent": "16"
+    },
+    {
+      "name": "菏泽市",
+      "value": "186",
+      "parent": "16"
+    },
+    {
+      "name": "河南省",
+      "value": "17"
+    },
+    {
+      "name": "郑州市",
+      "value": "187",
+      "parent": "17"
+    },
+    {
+      "name": "开封市",
+      "value": "188",
+      "parent": "17"
+    },
+    {
+      "name": "洛阳市",
+      "value": "189",
+      "parent": "17"
+    },
+    {
+      "name": "平顶山市",
+      "value": "190",
+      "parent": "17"
+    },
+    {
+      "name": "安阳市",
+      "value": "191",
+      "parent": "17"
+    },
+    {
+      "name": "鹤壁市",
+      "value": "192",
+      "parent": "17"
+    },
+    {
+      "name": "新乡市",
+      "value": "193",
+      "parent": "17"
+    },
+    {
+      "name": "焦作市",
+      "value": "194",
+      "parent": "17"
+    },
+    {
+      "name": "濮阳市",
+      "value": "195",
+      "parent": "17"
+    },
+    {
+      "name": "许昌市",
+      "value": "196",
+      "parent": "17"
+    },
+    {
+      "name": "漯河市",
+      "value": "197",
+      "parent": "17"
+    },
+    {
+      "name": "三门峡市",
+      "value": "198",
+      "parent": "17"
+    },
+    {
+      "name": "南阳市",
+      "value": "199",
+      "parent": "17"
+    },
+    {
+      "name": "商丘市",
+      "value": "200",
+      "parent": "17"
+    },
+    {
+      "name": "信阳市",
+      "value": "201",
+      "parent": "17"
+    },
+    {
+      "name": "周口市",
+      "value": "202",
+      "parent": "17"
+    },
+    {
+      "name": "驻马店市",
+      "value": "203",
+      "parent": "17"
+    },
+    {
+      "name": "湖北省",
+      "value": "18"
+    },
+    {
+      "name": "武汉市",
+      "value": "204",
+      "parent": "18"
+    },
+    {
+      "name": "黄石市",
+      "value": "205",
+      "parent": "18"
+    },
+    {
+      "name": "十堰市",
+      "value": "206",
+      "parent": "18"
+    },
+    {
+      "name": "宜昌市",
+      "value": "207",
+      "parent": "18"
+    },
+    {
+      "name": "襄樊市",
+      "value": "208",
+      "parent": "18"
+    },
+    {
+      "name": "鄂州市",
+      "value": "209",
+      "parent": "18"
+    },
+    {
+      "name": "荆门市",
+      "value": "210",
+      "parent": "18"
+    },
+    {
+      "name": "孝感市",
+      "value": "211",
+      "parent": "18"
+    },
+    {
+      "name": "荆州市",
+      "value": "212",
+      "parent": "18"
+    },
+    {
+      "name": "黄冈市",
+      "value": "213",
+      "parent": "18"
+    },
+    {
+      "name": "咸宁市",
+      "value": "214",
+      "parent": "18"
+    },
+    {
+      "name": "随州市",
+      "value": "215",
+      "parent": "18"
+    },
+    {
+      "name": "恩施土家族苗族自治州",
+      "value": "216",
+      "parent": "18"
+    },
+    {
+      "name": "省直辖县级行政区划",
+      "value": "217",
+      "parent": "18"
+    },
+    {
+      "name": "湖南省",
+      "value": "19"
+    },
+    {
+      "name": "长沙市",
+      "value": "218",
+      "parent": "19"
+    },
+    {
+      "name": "株洲市",
+      "value": "219",
+      "parent": "19"
+    },
+    {
+      "name": "湘潭市",
+      "value": "220",
+      "parent": "19"
+    },
+    {
+      "name": "衡阳市",
+      "value": "221",
+      "parent": "19"
+    },
+    {
+      "name": "邵阳市",
+      "value": "222",
+      "parent": "19"
+    },
+    {
+      "name": "岳阳市",
+      "value": "223",
+      "parent": "19"
+    },
+    {
+      "name": "常德市",
+      "value": "224",
+      "parent": "19"
+    },
+    {
+      "name": "张家界市",
+      "value": "225",
+      "parent": "19"
+    },
+    {
+      "name": "益阳市",
+      "value": "226",
+      "parent": "19"
+    },
+    {
+      "name": "郴州市",
+      "value": "227",
+      "parent": "19"
+    },
+    {
+      "name": "永州市",
+      "value": "228",
+      "parent": "19"
+    },
+    {
+      "name": "怀化市",
+      "value": "229",
+      "parent": "19"
+    },
+    {
+      "name": "娄底市",
+      "value": "230",
+      "parent": "19"
+    },
+    {
+      "name": "湘西土家族苗族自治州",
+      "value": "231",
+      "parent": "19"
+    },
+    {
+      "name": "广东省",
+      "value": "20"
+    },
+    {
+      "name": "广州市",
+      "value": "232",
+      "parent": "20"
+    },
+    {
+      "name": "韶关市",
+      "value": "233",
+      "parent": "20"
+    },
+    {
+      "name": "深圳市",
+      "value": "234",
+      "parent": "20"
+    },
+    {
+      "name": "珠海市",
+      "value": "235",
+      "parent": "20"
+    },
+    {
+      "name": "汕头市",
+      "value": "236",
+      "parent": "20"
+    },
+    {
+      "name": "佛山市",
+      "value": "237",
+      "parent": "20"
+    },
+    {
+      "name": "江门市",
+      "value": "238",
+      "parent": "20"
+    },
+    {
+      "name": "湛江市",
+      "value": "239",
+      "parent": "20"
+    },
+    {
+      "name": "茂名市",
+      "value": "240",
+      "parent": "20"
+    },
+    {
+      "name": "肇庆市",
+      "value": "241",
+      "parent": "20"
+    },
+    {
+      "name": "惠州市",
+      "value": "242",
+      "parent": "20"
+    },
+    {
+      "name": "梅州市",
+      "value": "243",
+      "parent": "20"
+    },
+    {
+      "name": "汕尾市",
+      "value": "244",
+      "parent": "20"
+    },
+    {
+      "name": "河源市",
+      "value": "245",
+      "parent": "20"
+    },
+    {
+      "name": "阳江市",
+      "value": "246",
+      "parent": "20"
+    },
+    {
+      "name": "清远市",
+      "value": "247",
+      "parent": "20"
+    },
+    {
+      "name": "东莞市",
+      "value": "248",
+      "parent": "20"
+    },
+    {
+      "name": "中山市",
+      "value": "249",
+      "parent": "20"
+    },
+    {
+      "name": "潮州市",
+      "value": "250",
+      "parent": "20"
+    },
+    {
+      "name": "揭阳市",
+      "value": "251",
+      "parent": "20"
+    },
+    {
+      "name": "云浮市",
+      "value": "252",
+      "parent": "20"
+    },
+    {
+      "name": "广西壮族自治区",
+      "value": "21"
+    },
+    {
+      "name": "南宁市",
+      "value": "253",
+      "parent": "21"
+    },
+    {
+      "name": "柳州市",
+      "value": "254",
+      "parent": "21"
+    },
+    {
+      "name": "桂林市",
+      "value": "255",
+      "parent": "21"
+    },
+    {
+      "name": "梧州市",
+      "value": "256",
+      "parent": "21"
+    },
+    {
+      "name": "北海市",
+      "value": "257",
+      "parent": "21"
+    },
+    {
+      "name": "防城港市",
+      "value": "258",
+      "parent": "21"
+    },
+    {
+      "name": "钦州市",
+      "value": "259",
+      "parent": "21"
+    },
+    {
+      "name": "贵港市",
+      "value": "260",
+      "parent": "21"
+    },
+    {
+      "name": "玉林市",
+      "value": "261",
+      "parent": "21"
+    },
+    {
+      "name": "百色市",
+      "value": "262",
+      "parent": "21"
+    },
+    {
+      "name": "贺州市",
+      "value": "263",
+      "parent": "21"
+    },
+    {
+      "name": "河池市",
+      "value": "264",
+      "parent": "21"
+    },
+    {
+      "name": "来宾市",
+      "value": "265",
+      "parent": "21"
+    },
+    {
+      "name": "崇左市",
+      "value": "266",
+      "parent": "21"
+    },
+    {
+      "name": "海南省",
+      "value": "22"
+    },
+    {
+      "name": "海口市",
+      "value": "267",
+      "parent": "22"
+    },
+    {
+      "name": "三亚市",
+      "value": "268",
+      "parent": "22"
+    },
+    {
+      "name": "省直辖县级行政区划",
+      "value": "269",
+      "parent": "22"
+    },
+    {
+      "name": "重庆市",
+      "value": "23"
+    },
+    {
+      "name": "市辖区",
+      "value": "270",
+      "parent": "23"
+    },
+    {
+      "name": "县",
+      "value": "271",
+      "parent": "23"
+    },
+    {
+      "name": "四川省",
+      "value": "24"
+    },
+    {
+      "name": "成都市",
+      "value": "273",
+      "parent": "24"
+    },
+    {
+      "name": "自贡市",
+      "value": "274",
+      "parent": "24"
+    },
+    {
+      "name": "攀枝花市",
+      "value": "275",
+      "parent": "24"
+    },
+    {
+      "name": "泸州市",
+      "value": "276",
+      "parent": "24"
+    },
+    {
+      "name": "德阳市",
+      "value": "277",
+      "parent": "24"
+    },
+    {
+      "name": "绵阳市",
+      "value": "278",
+      "parent": "24"
+    },
+    {
+      "name": "广元市",
+      "value": "279",
+      "parent": "24"
+    },
+    {
+      "name": "遂宁市",
+      "value": "280",
+      "parent": "24"
+    },
+    {
+      "name": "内江市",
+      "value": "281",
+      "parent": "24"
+    },
+    {
+      "name": "乐山市",
+      "value": "282",
+      "parent": "24"
+    },
+    {
+      "name": "南充市",
+      "value": "283",
+      "parent": "24"
+    },
+    {
+      "name": "眉山市",
+      "value": "284",
+      "parent": "24"
+    },
+    {
+      "name": "宜宾市",
+      "value": "285",
+      "parent": "24"
+    },
+    {
+      "name": "广安市",
+      "value": "286",
+      "parent": "24"
+    },
+    {
+      "name": "达州市",
+      "value": "287",
+      "parent": "24"
+    },
+    {
+      "name": "雅安市",
+      "value": "288",
+      "parent": "24"
+    },
+    {
+      "name": "巴中市",
+      "value": "289",
+      "parent": "24"
+    },
+    {
+      "name": "资阳市",
+      "value": "290",
+      "parent": "24"
+    },
+    {
+      "name": "阿坝藏族羌族自治州",
+      "value": "291",
+      "parent": "24"
+    },
+    {
+      "name": "甘孜藏族自治州",
+      "value": "292",
+      "parent": "24"
+    },
+    {
+      "name": "凉山彝族自治州",
+      "value": "293",
+      "parent": "24"
+    },
+    {
+      "name": "贵州省",
+      "value": "25"
+    },
+    {
+      "name": "贵阳市",
+      "value": "294",
+      "parent": "25"
+    },
+    {
+      "name": "六盘水市",
+      "value": "295",
+      "parent": "25"
+    },
+    {
+      "name": "遵义市",
+      "value": "296",
+      "parent": "25"
+    },
+    {
+      "name": "安顺市",
+      "value": "297",
+      "parent": "25"
+    },
+    {
+      "name": "铜仁地区",
+      "value": "298",
+      "parent": "25"
+    },
+    {
+      "name": "黔西南布依族苗族自治州",
+      "value": "299",
+      "parent": "25"
+    },
+    {
+      "name": "毕节地区",
+      "value": "300",
+      "parent": "25"
+    },
+    {
+      "name": "黔东南苗族侗族自治州",
+      "value": "301",
+      "parent": "25"
+    },
+    {
+      "name": "黔南布依族苗族自治州",
+      "value": "302",
+      "parent": "25"
+    },
+    {
+      "name": "云南省",
+      "value": "26"
+    },
+    {
+      "name": "昆明市",
+      "value": "303",
+      "parent": "26"
+    },
+    {
+      "name": "曲靖市",
+      "value": "304",
+      "parent": "26"
+    },
+    {
+      "name": "玉溪市",
+      "value": "305",
+      "parent": "26"
+    },
+    {
+      "name": "保山市",
+      "value": "306",
+      "parent": "26"
+    },
+    {
+      "name": "昭通市",
+      "value": "307",
+      "parent": "26"
+    },
+    {
+      "name": "丽江市",
+      "value": "308",
+      "parent": "26"
+    },
+    {
+      "name": "普洱市",
+      "value": "309",
+      "parent": "26"
+    },
+    {
+      "name": "临沧市",
+      "value": "310",
+      "parent": "26"
+    },
+    {
+      "name": "楚雄彝族自治州",
+      "value": "311",
+      "parent": "26"
+    },
+    {
+      "name": "红河哈尼族彝族自治州",
+      "value": "312",
+      "parent": "26"
+    },
+    {
+      "name": "文山壮族苗族自治州",
+      "value": "313",
+      "parent": "26"
+    },
+    {
+      "name": "西双版纳傣族自治州",
+      "value": "314",
+      "parent": "26"
+    },
+    {
+      "name": "大理白族自治州",
+      "value": "315",
+      "parent": "26"
+    },
+    {
+      "name": "德宏傣族景颇族自治州",
+      "value": "316",
+      "parent": "26"
+    },
+    {
+      "name": "怒江傈僳族自治州",
+      "value": "317",
+      "parent": "26"
+    },
+    {
+      "name": "迪庆藏族自治州",
+      "value": "318",
+      "parent": "26"
+    },
+    {
+      "name": "西藏自治区",
+      "value": "27"
+    },
+    {
+      "name": "拉萨市",
+      "value": "319",
+      "parent": "27"
+    },
+    {
+      "name": "昌都地区",
+      "value": "320",
+      "parent": "27"
+    },
+    {
+      "name": "山南地区",
+      "value": "321",
+      "parent": "27"
+    },
+    {
+      "name": "日喀则地区",
+      "value": "322",
+      "parent": "27"
+    },
+    {
+      "name": "那曲地区",
+      "value": "323",
+      "parent": "27"
+    },
+    {
+      "name": "阿里地区",
+      "value": "324",
+      "parent": "27"
+    },
+    {
+      "name": "林芝地区",
+      "value": "325",
+      "parent": "27"
+    },
+    {
+      "name": "陕西省",
+      "value": "28"
+    },
+    {
+      "name": "西安市",
+      "value": "326",
+      "parent": "28"
+    },
+    {
+      "name": "铜川市",
+      "value": "327",
+      "parent": "28"
+    },
+    {
+      "name": "宝鸡市",
+      "value": "328",
+      "parent": "28"
+    },
+    {
+      "name": "咸阳市",
+      "value": "329",
+      "parent": "28"
+    },
+    {
+      "name": "渭南市",
+      "value": "330",
+      "parent": "28"
+    },
+    {
+      "name": "延安市",
+      "value": "331",
+      "parent": "28"
+    },
+    {
+      "name": "汉中市",
+      "value": "332",
+      "parent": "28"
+    },
+    {
+      "name": "榆林市",
+      "value": "333",
+      "parent": "28"
+    },
+    {
+      "name": "安康市",
+      "value": "334",
+      "parent": "28"
+    },
+    {
+      "name": "商洛市",
+      "value": "335",
+      "parent": "28"
+    },
+    {
+      "name": "甘肃省",
+      "value": "29"
+    },
+    {
+      "name": "兰州市",
+      "value": "336",
+      "parent": "29"
+    },
+    {
+      "name": "嘉峪关市",
+      "value": "337",
+      "parent": "29"
+    },
+    {
+      "name": "金昌市",
+      "value": "338",
+      "parent": "29"
+    },
+    {
+      "name": "白银市",
+      "value": "339",
+      "parent": "29"
+    },
+    {
+      "name": "天水市",
+      "value": "340",
+      "parent": "29"
+    },
+    {
+      "name": "武威市",
+      "value": "341",
+      "parent": "29"
+    },
+    {
+      "name": "张掖市",
+      "value": "342",
+      "parent": "29"
+    },
+    {
+      "name": "平凉市",
+      "value": "343",
+      "parent": "29"
+    },
+    {
+      "name": "酒泉市",
+      "value": "344",
+      "parent": "29"
+    },
+    {
+      "name": "庆阳市",
+      "value": "345",
+      "parent": "29"
+    },
+    {
+      "name": "定西市",
+      "value": "346",
+      "parent": "29"
+    },
+    {
+      "name": "陇南市",
+      "value": "347",
+      "parent": "29"
+    },
+    {
+      "name": "临夏回族自治州",
+      "value": "348",
+      "parent": "29"
+    },
+    {
+      "name": "甘南藏族自治州",
+      "value": "349",
+      "parent": "29"
+    },
+    {
+      "name": "青海省",
+      "value": "30"
+    },
+    {
+      "name": "西宁市",
+      "value": "350",
+      "parent": "30"
+    },
+    {
+      "name": "海东地区",
+      "value": "351",
+      "parent": "30"
+    },
+    {
+      "name": "海北藏族自治州",
+      "value": "352",
+      "parent": "30"
+    },
+    {
+      "name": "黄南藏族自治州",
+      "value": "353",
+      "parent": "30"
+    },
+    {
+      "name": "海南藏族自治州",
+      "value": "354",
+      "parent": "30"
+    },
+    {
+      "name": "果洛藏族自治州",
+      "value": "355",
+      "parent": "30"
+    },
+    {
+      "name": "玉树藏族自治州",
+      "value": "356",
+      "parent": "30"
+    },
+    {
+      "name": "海西蒙古族藏族自治州",
+      "value": "357",
+      "parent": "30"
+    },
+    {
+      "name": "宁夏回族自治区",
+      "value": "31"
+    },
+    {
+      "name": "银川市",
+      "value": "358",
+      "parent": "31"
+    },
+    {
+      "name": "石嘴山市",
+      "value": "359",
+      "parent": "31"
+    },
+    {
+      "name": "吴忠市",
+      "value": "360",
+      "parent": "31"
+    },
+    {
+      "name": "固原市",
+      "value": "361",
+      "parent": "31"
+    },
+    {
+      "name": "中卫市",
+      "value": "362",
+      "parent": "31"
+    },
+    {
+      "name": "新疆维吾尔自治区",
+      "value": "32"
+    },
+    {
+      "name": "乌鲁木齐市",
+      "value": "363",
+      "parent": "32"
+    },
+    {
+      "name": "克拉玛依市",
+      "value": "364",
+      "parent": "32"
+    },
+    {
+      "name": "吐鲁番地区",
+      "value": "365",
+      "parent": "32"
+    },
+    {
+      "name": "哈密地区",
+      "value": "366",
+      "parent": "32"
+    },
+    {
+      "name": "昌吉回族自治州",
+      "value": "367",
+      "parent": "32"
+    },
+    {
+      "name": "博尔塔拉蒙古自治州",
+      "value": "368",
+      "parent": "32"
+    },
+    {
+      "name": "巴音郭楞蒙古自治州",
+      "value": "369",
+      "parent": "32"
+    },
+    {
+      "name": "阿克苏地区",
+      "value": "370",
+      "parent": "32"
+    },
+    {
+      "name": "克孜勒苏柯尔克孜自治州",
+      "value": "371",
+      "parent": "32"
+    },
+    {
+      "name": "喀什地区",
+      "value": "372",
+      "parent": "32"
+    },
+    {
+      "name": "和田地区",
+      "value": "373",
+      "parent": "32"
+    },
+    {
+      "name": "伊犁哈萨克自治州",
+      "value": "374",
+      "parent": "32"
+    },
+    {
+      "name": "塔城地区",
+      "value": "375",
+      "parent": "32"
+    },
+    {
+      "name": "阿勒泰地区",
+      "value": "376",
+      "parent": "32"
+    },
+    {
+      "name": "自治区直辖县级行政区划",
+      "value": "377",
+      "parent": "32"
+    }
+  ]
