@@ -1,6 +1,18 @@
 /**
  * Created by PanJiaChen on 16/11/18.
  */
+ /**
+* @see 把数组按照一定的数量切割成一个二维数组
+* @param {data} 一维数组
+* @param {number} 数量
+*/
+export const arrN = (data, numbers) => {
+  let arr = [];
+  for (let i = 0; i < data.length; i += number) {
+    arr.push(data.slice(i, i + number));
+  }
+  return arr
+}
 /**
  * @see 获取英文字母
  * @param start 开始下标
